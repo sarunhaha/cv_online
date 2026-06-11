@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local CV PDF — intentionally not tracked (reachable via direct URL if committed)
+/public/Profile_2026 Update.pdf

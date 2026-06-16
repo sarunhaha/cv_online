@@ -60,6 +60,28 @@ export default function Home() {
               >
                 Get in touch
               </a>
+              <a
+                href="/Sarun-Saengsomboon-CV.pdf"
+                download="Sarun-Saengsomboon-CV.pdf"
+                className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
+              >
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download CV
+              </a>
             </div>
           </motion.div>
 
@@ -69,13 +91,13 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="shrink-0"
           >
-            <div className="relative h-44 w-44 overflow-hidden rounded-2xl border border-line sm:h-56 sm:w-56">
+            <div className="relative h-44 w-44 overflow-hidden rounded-2xl border border-line sm:h-64 sm:w-64 lg:h-80 lg:w-80">
               <Image
                 src="/image_profile2.png"
                 alt="Sarun Saengsomboon"
                 fill
                 priority
-                sizes="(max-width: 640px) 176px, 224px"
+                sizes="(max-width: 640px) 176px, (max-width: 1024px) 256px, 320px"
                 className="object-cover object-top"
               />
             </div>

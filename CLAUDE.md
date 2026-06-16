@@ -8,6 +8,10 @@ Portfolio website for Sarun Saengsomboon - UX/UI Lead & Product-minded Engineer
 2. **Always use comprehensive thinking mode** throughout the conversation
 3. **Record important notes in this CLAUDE.md file**
 
+## CV / Download
+- The hero "Download CV" button links to `/public/Sarun-Saengsomboon-CV.pdf` (URL-safe copy, tracked in git — intentionally public so the button works on production).
+- The spaced-name original `/public/Profile_2026 Update.pdf` stays gitignored. If the CV is updated, copy the new file over `Sarun-Saengsomboon-CV.pdf` (do NOT re-gitignore the URL-safe copy — the button depends on it).
+
 ## Tech Stack
 - Next.js 15 (App Router)
 - TypeScript

@@ -61,8 +61,9 @@ export default function Home() {
                 Get in touch
               </a>
               <a
-                href="/Sarun-Saengsomboon-CV.pdf"
-                download="Sarun-Saengsomboon-CV.pdf"
+                href="https://drive.google.com/uc?export=download&id=1IqWFop7breW1bpv6A8QJPXQeepV7J689"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
               >
                 <svg
@@ -80,7 +81,7 @@ export default function Home() {
                   <polyline points="7 10 12 15 17 10" />
                   <line x1="12" y1="15" x2="12" y2="3" />
                 </svg>
-                Download CV
+                Download Portfolio
               </a>
             </div>
           </motion.div>

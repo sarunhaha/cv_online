@@ -40,5 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Keep the original-name CV out of git; the URL-safe copy (public/Sarun-Saengsomboon-CV.pdf) is the one served.
+# Local CV PDF — intentionally not tracked (reachable via direct URL if committed)
 /public/Profile_2026 Update.pdf

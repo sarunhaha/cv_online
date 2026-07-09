@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  display: 'swap',
+});
+
+const bricolage = Bricolage_Grotesque({
+  subsets: ['latin'],
+  variable: '--font-bricolage',
   display: 'swap',
 });
 
@@ -16,8 +22,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sarun Saengsomboon (Jeff) - UX/UI Lead Portfolio",
-  description: "UX/UI Lead with 20 years of experience in crafting product experiences, leading design systems, and shipping web/mobile apps.",
+  title: "Sarun Saengsomboon (Jeff) — Product Leader × AI Builder",
+  description: "Product leader with 20 years across product management, UX/UI, and engineering — building AI-enabled products from idea to production.",
 };
 
 export default function RootLayout({
@@ -32,7 +38,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}
+        className={`${inter.variable} ${jetbrainsMono.variable} ${bricolage.variable} antialiased`}
       >
         {children}
       </body>

@@ -56,6 +56,17 @@ portfolio/
 └── CLAUDE.md           # This file
 ```
 
+## Redesign — "Inspect Mode" (Jul 2026)
+- Positioning (rev 2): **Product Leader × AI Builder** — hero "From idea to shipped product." เน้น PM + AI นำ, UX/UI เป็นราก (ตาม feedback user)
+- Selected Work (rev 2): แถวใหญ่สลับซ้าย-ขวา (ไม่ใช่ 3-col grid — เล็กเกินดูเป็นของเล่น), เรียง devio (AI) ก่อน, copy เน้น product outcome
+- Direction: **Refined + Interactive** — โชว์ duality UX/UI Lead × Engineer
+- **Signature**: Inspect mode (ปุ่มใน nav หรือกด `I`) — เปิด Figma-style spec layer: dot grid, dashed outlines + token chips ที่ hero, selection handles ที่รูปโปรไฟล์
+- **Selected Work**: งานจริงติด NDA → ใช้ stylized illustrations (`public/devio_img.png`, `kulap_img.png`, `ptt_img.png` — 1448×1086, ~1MB/ไฟล์) ใน browser frame; coded HTML/CSS mocks เดิมถูกถอดออกแล้ว (rev 3)
+- **Career**: timeline 3 ยุค — Lead & found (2017→) / UX craft (2013–17) / Code foundations (2005–13)
+- Tokens: paper `#f7f8fa` / ink `#15171c` / accent `#0f5bd8` / spec `#0d99ff` (Figma selection blue) — spec CSS ทั้งหมดอยู่ท้าย globals.css
+- Fonts: Bricolage Grotesque (display) + Inter (body) + JetBrains Mono (spec labels) via next/font
+- หมายเหตุ: `public/Profile_2026 Update.pdf` (CV ส่วนตัว, gitignored — ไม่เคย deploy) ถูกลบออกจากเครื่องแล้ว Jul 2026 ตามนโยบายไม่ expose CV ผ่าน direct URL
+
 ## Latest Major Updates (Dec 2024)
 
 ### Profile & Content Updates
